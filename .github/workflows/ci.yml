@@ -1,3 +1,4 @@
+yaml
 name: Python CI with MongoDB
 
 on: [push, pull_request]
@@ -57,3 +58,4 @@ jobs:
 
       - name: Enable debug logging	
         run: echo "ACT_DEBUG=true" >> $GITHUB_ENV
+
