@@ -1,0 +1,19 @@
+# Ignorowanie plików Pythona
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorowanie plików i folderów związanych z edytorem (np. VSCode)
+.vscode/
+
+# Ignorowanie folderów i plików środowiska wirtualnego
+.env
+venv/
+.venv/
+
+# Ignorowanie plików generowanych przez PyCharm
+.idea/
+
+# Ignorowanie raportów z testów
+htmlcov/
+.coverage
