@@ -1,3 +1,11 @@
+import pytest
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from pymongo import MongoClient
+from dotenv import load_dotenv
+from app import hello, add, subtract, multiply, divide
+
 def test_hello():
     assert hello() == "Hello, world!"
 
